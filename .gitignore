@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Large dataset caches and raw volumes
+/data/
+/rawdata/
+/zenodo_data/
+*.nii
+*.nii.gz
+!sample_data/*.nii.gz
+!reports/*.nii.gz
+
+# Checkpoints and weights
+*.pth
+*.pt
+*.onnx
+checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Internal build guides & notes
+docs/
+*.pdf

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "limbalign"
+version = "0.1.0"
+authors = [
+  { name = "Aadarsh Pandita", email = "aadarshapandit@gmail.com" },
+]
+description = "Automated 3D Lower-Limb Alignment, Landmark Extraction, and Deformity Analysis from CT"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "nibabel>=5.0.0",
+    "SimpleITK>=2.3.0",
+    "scikit-image>=0.21.0",
+    "matplotlib>=3.7.0",
+    "pandas>=2.0.0",
+    "torch>=2.0.0",
+    "monai>=1.3.0",
+]
+
+[project.scripts]
+limbalign = "limbalign.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
