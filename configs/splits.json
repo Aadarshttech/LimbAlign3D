@@ -1,0 +1,39 @@
+{
+  "random_seed": 42,
+  "description": "Stratified train/val/test split across 28 usable cases from Zurich (ZH) and Bern (BE) forensic CT collections",
+  "train": [
+    "case_002_ZH",
+    "case_003_BE",
+    "case_004_ZH",
+    "case_005_BE",
+    "case_007_ZH",
+    "case_008_BE",
+    "case_009_ZH",
+    "case_010_BE",
+    "case_011_ZH",
+    "case_012_BE",
+    "case_013_ZH",
+    "case_014_BE",
+    "case_015_ZH",
+    "case_016_BE",
+    "case_017_ZH",
+    "case_018_BE",
+    "case_019_ZH",
+    "case_020_BE"
+  ],
+  "val": [
+    "case_021_ZH",
+    "case_022_BE",
+    "case_023_ZH",
+    "case_024_BE"
+  ],
+  "test": [
+    "case_025_ZH",
+    "case_026_BE",
+    "case_027_ZH",
+    "case_028_BE",
+    "case_029_ZH",
+    "case_030_BE"
+  ]
+}
+
