@@ -1,0 +1,3 @@
+side,hka_3d_deg,hka_coronal_deg,mechanical_axis_deviation_deg,alignment_type,mldfa_deg,mmpta_deg,jlca_deg,femoral_mechanical_length_mm,tibial_mechanical_length_mm,total_limb_length_mm,femoral_head_radius_mm
+Right,175.93,181.03,1.03,Neutral,89.19,89.08,18.43,139.7,135.2,274.9,12.45
+Left,171.32,172.26,-7.74,Varus,87.14,89.08,18.43,140.1,135.4,275.5,12.45

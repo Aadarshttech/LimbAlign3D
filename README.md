@@ -152,6 +152,8 @@ Evaluated with physical voxel spacing ($1.5 \times 1.5 \times 2.0$ mm) using sym
 | **Right Limb** | 181.03° | 181.03° | Neutral (+1.03°) | 89.19° | 89.08° | 2.43° | 432.5 mm | 380.0 mm | 22.84 mm |
 | **Left Limb** | 172.26° | 172.26° | Varus (-7.74°) | 87.14° | 89.08° | 2.43° | 431.8 mm | 379.4 mm | 22.80 mm |
 
+> Note: Offline testing reports generated on the procedural synthetic demo volume use scaled matrix dimensions (96x96x192). The automated QC gate flags these test cases as non-physiological, confirming that plausibility rejection triggers properly on out-of-distribution geometry.
+
 ---
 
 ## Project Structure

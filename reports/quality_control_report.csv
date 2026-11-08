@@ -1,0 +1,3 @@
+side,passed,status,flags,sphere_radius_valid,hka_valid,length_valid
+Right,False,REJECTED,"['Femoral head radius (12.4 mm) outside physiological range [18.0, 30.0] mm.', 'Limb length (274.9 mm) outside expected adult range [600.0, 1100.0] mm.']",False,True,False
+Left,False,REJECTED,"['Femoral head radius (12.4 mm) outside physiological range [18.0, 30.0] mm.', 'Limb length (275.5 mm) outside expected adult range [600.0, 1100.0] mm.']",False,True,False
